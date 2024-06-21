@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="/css/LandingPageStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="company">
+                <!-- <img src="./CSS/LogoPic.jpg" alt="logo" class="logo"> -->
+                <div class="company-name">Recy<span style="color: rgb(39, 231, 39);">Q</span></div>
+            </div>
+            <div class="search-bar">
+                <i class="ri-search-line" style="color: black; opacity: 0.7;"></i>
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+
+            </div>
+            <% if (login != null ) { %>
+                <div class="login-options">
+                    <a href="/logout"><%= username %> (Logout)</a>
+                </div>
+                <% } else { %>
+                    <div class="login-options">
+                        <a href="/login">Login</a>
+                    </div>
+                    <% } %>
+                    <div class="sell" style="border: 2px solid rgb(60, 235, 226) ; border-radius: 30px; padding: 5px; width: 70px;">
+                        <a style="color: white; text-decoration: none;" href="/sell">Sell <i class="ri-add-large-fill"></i> </a>
+                    </div>
+        
+                        <div class="burger-menu">&#9776;</div>
+        </div>
+    </nav>
+
+
+    <section class="main">
+        <div class="title">Fresh Recommendations...</div>
+        <div class="container-fluid">
+            <div class="products">
+
+                <% if (productList.length> 0) {
+                    productList.forEach(function(data) { %>
+                    <div class="product-card" id="product1">
+                        <div class="product-img">
+                            <img class="product-image" src="<%= data.image %>" alt="">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <%= data.name %>
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price">Rs. <%= data.price %>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="details-btn" style="text-decoration: none; margin-left: 80%"><i
+                                class="ri-arrow-right-s-line"
+                                style="border: 1.5px solid black; border-radius: 50px; ;"></i></a>
+                    </div>
+                    <% }); } else { %>
+                        <p>no products</p>
+                        <% } %>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="about">
+        <h2>About Platform</h2>
+        <p>RecyQ is an innovative online platform designed to revolutionize e-waste management. With the increasing
+            global problem of electronic waste (e-waste) and its environmental impact, RecyQ offers a solution to bridge
+            the gap between e-waste producers and potential recyclers and buyers. RecyQ taps at the mismanagement in the
+            recycling of e-waste and aims to make a profitable e-waste locator platform by providing various features
+            such as listing of products that still have the potential to be used or recycled, and connecting the sellers
+            with the buyers.</p>
+    </div>
+
+    <footer class="contacts">
+        <div class="social-media">
+            <h2>Connect with Us:</h2>
+            <div class="accounts">
+                <div class="platform">
+                    <i class="ri-facebook-fill"></i>
+                    <a href="https://www.facebook.com">Facebook</a>
+                </div>
+
+                <div class="platform">
+                    <i class="ri-instagram-line"></i>
+                    <a href="#">Instagram</a>
+                </div>
+
+                <div class="platform">
+                    <i class="ri-linkedin-box-fill"></i>
+                    <a href="#">LinkedIn</a>
+                </div>
+
+                <div class="platform">
+                    <i class="ri-twitter-fill"></i>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="#navbar" class="return-top" style="text-align: right;"><i class="ri-arrow-up-circle-fill"
+            style="font-size: 50px;"></i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
