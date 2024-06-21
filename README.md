@@ -17,16 +17,52 @@ RecyQ operates on a commission-based model, earning revenue through transaction 
 This project was developed as part of a hackathon by the following team members:
 
 - Surbhi Kumari  
-  Email: surbhitiwary336@gmail.com
+  Email: surbhitiwary336@gmail.com  
+  GitHub ID: Somie12
 
 - Anshika Singh  
-  Email: anshika100104@gmail.com
+  Email: anshika100104@gmail.com  
+  GitHub ID: anshika1704
 
 - Debadarshi Omkar  
-  Email: debadarshi.omkar08@gmail.com
+  Email: debadarshi.omkar08@gmail.com  
+  GitHub ID: debadarshi07
 
 - Harish Kumar Mahto  
-  Email: harishmahto2003@gmail.com
+  Email: harishmahto2003@gmail.com  
+  GitHub ID: HarishMahto
 
 - Aditya Narayan  
-  Email: narayanadi2018@gmail.com
+  Email: narayanadi2018@gmail.com  
+  GitHub ID: bhaukal01
+
+### Installation
+To run RecyQ locally, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/RecyQ.git
+   ```
+   
+2. Navigate to the project directory
+   ```sh
+   cd RecyQ
+   ```
+4. Install dependencies:
+   ```sh
+   npm install
+   ```
+5. Start the application:
+   ```sh
+   npm start
+   ```
+6. Open your browser and go to http://localhost:3000 to use the platform.
+
+
+
+
+
+
+
+
+
