@@ -16,25 +16,13 @@ RecyQ operates on a commission-based model, earning revenue through transaction 
 ### Hackathon Participation
 This project was developed as part of a hackathon by the following team members:
 
-- Surbhi Kumari  
-  Email: surbhitiwary336@gmail.com  
-  GitHub ID: Somie12
-
-- Anshika Singh  
-  Email: anshika100104@gmail.com  
-  GitHub ID: anshika1704
-
-- Debadarshi Omkar  
-  Email: debadarshi.omkar08@gmail.com  
-  GitHub ID: debadarshi07
-
-- Harish Kumar Mahto  
-  Email: harishmahto2003@gmail.com  
-  GitHub ID: HarishMahto
-
-- Aditya Narayan  
-  Email: narayanadi2018@gmail.com  
-  GitHub ID: bhaukal01
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/Somie12" target="_blank"><img src="https://github.com/Somie12.png" alt="Surbhi Kumari" width="100" height="100" style="border-radius: 8px;"></a>
+  <a href="https://github.com/anshika1704" target="_blank"><img src="https://github.com/anshika1704.png" alt="Anshika Singh" width="100" height="100" style="border-radius: 8px;"></a>
+  <a href="https://github.com/debadarshi07" target="_blank"><img src="https://github.com/debadarshi07.png" alt="Debadarshi Omkar" width="100" height="100" style="border-radius: 8px;"></a>
+  <a href="https://github.com/HarishMahto" target="_blank"><img src="https://github.com/HarishMahto.png" alt="Harish Kumar Mahto" width="100" height="100" style="border-radius: 8px;"></a>
+  <a href="https://github.com/bhaukal01" target="_blank"><img src="https://github.com/bhaukal01.png" alt="Aditya Narayan" width="100" height="100" style="border-radius: 8px;"></a>
+</div>
 
 ### Installation
 To run RecyQ locally, follow these steps:
