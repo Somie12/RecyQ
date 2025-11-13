@@ -18,7 +18,7 @@ This project was developed as part of a hackathon by the following team members:
 
 <div style="display: flex; gap: 10px;">
   <a href="https://github.com/Somie12" target="_blank"><img src="https://github.com/Somie12.png" alt="Surbhi Kumari" width="100" height="100" style="border-radius: 8px;"></a>
-  <a href="https://github.com/anshika1704" target="_blank"><img src="https://github.com/anshika1704.png" alt="Anshika Singh" width="100" height="100" style="border-radius: 8px;"></a>
+  <a href="https://github.com/anshikasingh0705" target="_blank"><img src="https://github.com/anshikasingh0705.png" alt="Anshika Singh" width="100" height="100" style="border-radius: 8px;"></a>
   <a href="https://github.com/debadarshi07" target="_blank"><img src="https://github.com/debadarshi07.png" alt="Debadarshi Omkar" width="100" height="100" style="border-radius: 8px;"></a>
   <a href="https://github.com/HarishMahto" target="_blank"><img src="https://github.com/HarishMahto.png" alt="Harish Kumar Mahto" width="100" height="100" style="border-radius: 8px;"></a>
   <a href="https://github.com/bhaukal01" target="_blank"><img src="https://github.com/bhaukal01.png" alt="Aditya Narayan" width="100" height="100" style="border-radius: 8px;"></a>
@@ -45,6 +45,7 @@ To run RecyQ locally, follow these steps:
    npm start
    ```
 6. Open your browser and go to http://localhost:3000 to use the platform.
+
 
 
 
